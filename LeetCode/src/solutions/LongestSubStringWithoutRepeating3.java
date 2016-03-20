@@ -1,4 +1,4 @@
-package longestsubstringwithoutrepeating3;
+package solutions;
 
 import java.util.HashMap;
 
@@ -10,7 +10,7 @@ import java.util.HashMap;
  *       repeating letters for "abcabcbb" is "abc", which the length is 3. For
  *       "bbbbb" the longest substring is "b", with the length of 1.
  */
-public class AnswerHashMapTwoIndex {
+public class LongestSubStringWithoutRepeating3 {
 
 	public int lengthOfLongestSubstring(String s) {
 		if (s == null || s.isEmpty())

@@ -1,4 +1,4 @@
-package medianoftwosortedarrays4;
+package solutions;
 
 import print.Print;
 import math.Math;
@@ -8,7 +8,7 @@ import math.Math;
  * @Date : May 1, 2015
  * @Desc :
  */
-public class SolutionMergeTwoArray {
+public class MedianOfTwoSortedArrays4 {
 
 	public static double findMedianSortedArrays(int[] nums1, int[] nums2) {
 		if (nums1 == null || nums2 == null)

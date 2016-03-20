@@ -1,11 +1,11 @@
-package pascaltriangle118;
+package solutions;
 
 import java.util.ArrayList;
 import java.util.List;
 
 /**
  * @Author: Nandi Ouyang
- * Mar 29, 2015
+ * @Date Mar 29, 2015
  * Given numRows, generate the first numRows of Pascal's triangle.
  * For example, given numRows = 5,
  * [
@@ -17,7 +17,7 @@ import java.util.List;
  * ]
  */
 
-public class Answer1 {
+public class PascalTriangle118 {
 
 	public List<List<Integer>> generate(int numRows) {
 		List<List<Integer>> list = new ArrayList<List<Integer>>();

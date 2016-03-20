@@ -1,13 +1,39 @@
-package implementtrie208;
+package solutions;
 
-import java.util.HashMap;
 
 /**
  * @Author: Nandi Ouyang
  * @Date : May 13, 2015
  * @Desc : Implement a trie with insert, search, and startsWith methods.
  */
-public class TrieNode {
+public class ImplementTrie208 {
+	
+
+	public static void main(String[] args) {
+
+		TrieNode root = new TrieNode();
+
+		root.addChildren("nemathelminth".toCharArray());
+		root.addChildren("entracte".toCharArray());
+
+		System.out.println(root.search("nematiu".toCharArray()));
+
+		char[] a = new char[2];
+		a[0] = 'a';
+		a[1] = 'b';
+
+		char[] b = new char[2];
+		b[0] = 'a';
+		b[1] = 'b';
+
+		System.out.println(a.hashCode());
+		System.out.println(b.hashCode());
+
+	}
+
+}
+
+class TrieNode {
 	TrieNode[] children = new TrieNode[26];
 
 	String val = "";
@@ -57,26 +83,6 @@ public class TrieNode {
 		return false;
 
 	}
-
-	public static void main(String[] args) {
-
-		TrieNode root = new TrieNode();
-
-		root.addChildren("nemathelminth".toCharArray());
-		root.addChildren("entracte".toCharArray());
-
-		System.out.println(root.search("nematiu".toCharArray()));
-
-		char[] a = new char[2];
-		a[0] = 'a';
-		a[1] = 'b';
-
-		char[] b = new char[2];
-		b[0] = 'a';
-		b[1] = 'b';
-
-		System.out.println(a.hashCode());
-		System.out.println(b.hashCode());
-
-	}
+	
+	
 }
